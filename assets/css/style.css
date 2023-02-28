@@ -25,7 +25,7 @@
     flex-wrap: wrap;
 }
 
-.relatice{
+.relative{
     position: relative;
 }
 
@@ -42,6 +42,9 @@ main{
 
 .lettere, a, i{
     padding-top: 1.5%;
+    
+}
+.color-white, a{
     color: white;
 }
 
@@ -59,7 +62,7 @@ main{
 
 .col-2{
     flex-basis: calc(100%/3 - 1%);
-    padding-bottom: 3%;
+    padding: 5%
 }
 
 
@@ -74,4 +77,47 @@ footer{
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+}
+.text-line-through{
+    text-decoration-line: line-through;
+}
+
+.text-red{
+    color: red;
+}
+
+#lables .lable{
+    padding: 8px 12px;
+    color: white;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.ab-botton-10{
+    bottom: 10px;
+}
+
+.ab-top-10{
+    top: 10px;
+}
+
+.ab-right-0{
+    right: 0;
+}
+
+.heart{
+    color: black;
+    padding: 0 10px;
+    background-color: white;
+    right: 20%;
 }
